@@ -6,8 +6,9 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          centerTitle: true,
           title: Text('Airport Authority of India ✈'),
-          backgroundColor: Colors.blue[900],
+          backgroundColor: Colors.yellow[900],
         ),
       ),
     ), //End of MaterialApp
